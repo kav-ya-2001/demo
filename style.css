@@ -1,0 +1,64 @@
+body{
+
+    position: fixed;
+}
+
+.main-body{
+    backdrop-filter: blur(15px);
+    
+}
+
+
+
+.calc{
+    width:400px;
+    height: 590px;
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 18px;
+    margin-top: 60px;
+    margin-left: 400PX;
+   
+    
+}
+
+#screen{
+    width: 88%;
+    margin-left: 36px;
+    height: 55px;
+    margin-top: 30px;
+    pointer-events: none;
+    background: #091921;
+    color: whitesmoke;
+    font-size: 30px;
+    border: 0;
+    outline: 0;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    border-radius: 15px;
+  
+}
+
+.btn{
+    width:60px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background: #091921;
+    place-items: center;
+    cursor: pointer;
+    color: whitesmoke;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    border: 0;
+    background: transparent;
+    font-size: 26px;
+    border-radius: 90px;
+}
+
+.calc-text{
+    color:white;
+    margin-top: 30px;
+    margin-left: 120px;
+    letter-spacing: 9px;
+    font-size:20px ;
+}
